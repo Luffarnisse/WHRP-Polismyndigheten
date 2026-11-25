@@ -11,7 +11,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "idle",
+    status: "dnd",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "West Halmstad",     // this is what people actually see
+        state: "West Halmstad RP",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
@@ -61,9 +61,9 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
-      { question: "How old are you?", required: true },
-      { question: "Why do you want to join?", required: true },
+      { question: "Vad heter du (RP)?", required: true },
+      { question: "Hur gammal är du?", required: true },
+      { question: "Varför vill du gå med?", required: true },
     ],
 
     // Embed colors by application status.
