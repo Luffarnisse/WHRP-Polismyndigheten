@@ -11,7 +11,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "idle",
+    status: "dnd",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -93,7 +93,7 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
+      primary: "#0F45D1",
       secondary: "#2F3136",
 
       // Standard status colors for success/error/warning/info messages.
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "WHRP | Polismyndigheten",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -149,9 +149,9 @@ export const botConfig = {
     thumbnail: null,
     author: {
       // Optional default embed author block.
-      name: null,
+      name: Polisen,
       icon: null,
-      url: null,
+      url: https://cdn.discordapp.com/attachments/1566481129446310110/1566483295879831652/WHRP_POLISEN_BANNER_UPDATE_2.png?ex=6b07b001&is=6b065e81&hm=4b9b7b2c45c00d60c228f830f4b0f3d83518cf31359b431c2fa908c7b5c47aa3&,
     },
   },
 
